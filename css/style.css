@@ -1,8 +1,10 @@
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Noto Sans TC', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 }
 p,a,span,li,label{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Noto Sans TC', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 }
 img{
 	max-width:100%;
@@ -10,6 +12,12 @@ img{
 nav li{
 	    margin: 0 13px;
 }
+
+#second{
+	border-top: 1px solid #000000 ;
+}
+
+
 #intro .jumbotron{
 	background: url('../pictures/mainbg.png');
 	background-size: cover;
@@ -23,7 +31,7 @@ nav li{
 	position:relative;
     top: 50%;
     transform: translate(0, -50%);
-}
+}  
 #intro .btn{
 	margin-top: 20px;
 }
@@ -138,10 +146,10 @@ footer ul a{
 	color: #707070;
 }
 footer a{
-	color:#f05f5c;
+	color:#0000ff;
 }
 footer a:hover{
-	color:#f05f5c;
+	color:#0000ff;
 }
 footer ul a:hover{
 	color: #707070;
@@ -183,9 +191,9 @@ footer ul{
 	padding: 80 0px;
 }
 .thetag{
-	color: #f05f5c;
+	color: #0000ff;
     font-size: 16px;
-    border: 1px solid #f05f5c;
+    border: 1px solid #0000ff;
     padding: 10px 18px;
     border-radius: 20px;
     display: inline-block;
@@ -208,8 +216,8 @@ footer ul{
 	text-align: center;
 }
 .btn2{
-    color: #707070;
-    border: 1px solid #707070;
+    color: #ffffff;
+    border: 1px solid #ffffff;
     padding: 10px 24px;
     border-radius: 20px;
     margin-top: 3px;
@@ -218,7 +226,7 @@ footer ul{
 .btn2:hover{
 	text-decoration: none;
 	opacity: 0.8;
-	color: #707070;
+	color: #ffffff;
 }
 #intro .contact{
 	height: auto;
@@ -238,7 +246,7 @@ footer ul{
 }
 #intro .contact .col-md-4 hr {
     color: white;
-    border-top: 2px solid #f05f5c;
+    border-top: 2px solid #0000ff;
     width: 87px;
     margin-top: 24px;
     margin-bottom: 26px;
@@ -255,7 +263,7 @@ footer ul{
 	margin-bottom: 40px;
 }
 #contactcontent a{
-	color:#f05f5c;
+	color:#0000ff;
 }
 #contactcontent a.btn{
 	color:white;
